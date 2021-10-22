@@ -162,6 +162,10 @@ body {
     padding: 0px 10px;
 }
 
+.pad-10-0 {
+    padding: 10px 0px;
+}
+
 .margin-10 {
     margin: 10px;
 }

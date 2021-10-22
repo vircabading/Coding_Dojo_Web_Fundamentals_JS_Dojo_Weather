@@ -28,11 +28,8 @@
 }
 
 /* //// MAIN CONTENT //////////////////////////////////*/
-.main-content {
-    background-color: yellow;
-    height: 800px;
-}
 
+/* //// City Bar //////////////////////////////////////*/
 .city-bar {
     background-color: white;
     border-style: solid;
@@ -40,7 +37,20 @@
     border-width: 0px 0px 2px 0px;
 }
 
-.weather-bar {
-    background-color: green ;
-    height: 600px;
+/* //// Weather Bar ///////////////////////////////////*/
+.weather-card {
+    background-color: lightblue;
+}
+
+.weather-card>img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.red-temp {
+    color: red;
+}
+
+.blue-temp {
+    color: blue;
 }

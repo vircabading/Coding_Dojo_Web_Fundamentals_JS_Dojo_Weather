@@ -10,8 +10,7 @@
 
 /* //// TOP BAR ///////////////////////////////////////*/
 .top-bar {
-    background-color: blue;
-    height: 100px;
+    background-color:dodgerblue;
     margin: 10px 0px;
 }
 
@@ -36,7 +35,9 @@
 
 .city-bar {
     background-color: white;
-    height: 200px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 2px 0px;
 }
 
 .weather-bar {

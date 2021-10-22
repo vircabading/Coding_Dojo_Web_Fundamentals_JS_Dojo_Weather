@@ -1,0 +1,34 @@
+/*  //////////////////////////////////////////////////
+    Subj:   Coding Dojo > Web Fundamentals > HTML/CSS/JS
+
+    By:     Virgilio D. Cabading Jr.    
+    ////////////////////////////////////////////////// */
+
+* {
+
+}
+
+/* //// TOP BAR ///////////////////////////////////////*/
+.top_bar {
+    background-color: blue;
+    height: 100px;
+}
+
+.top_bar > * {
+    color: white;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.logo>span {
+    color: yellow;
+}
+
+/* //// MAIN CONTENT //////////////////////////////////*/
+.main_content {
+    background-color: yellow;
+    height: 800px;
+}

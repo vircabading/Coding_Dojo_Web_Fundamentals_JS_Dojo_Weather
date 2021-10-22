@@ -5,16 +5,17 @@
     ////////////////////////////////////////////////// */
 
 * {
-
+    font-family: Helvetica;
 }
 
 /* //// TOP BAR ///////////////////////////////////////*/
-.top_bar {
+.top-bar {
     background-color: blue;
     height: 100px;
+    margin: 10px 0px;
 }
 
-.top_bar > * {
+.top-bar > * {
     color: white;
 }
 
@@ -28,7 +29,17 @@
 }
 
 /* //// MAIN CONTENT //////////////////////////////////*/
-.main_content {
+.main-content {
     background-color: yellow;
     height: 800px;
+}
+
+.city-bar {
+    background-color: white;
+    height: 200px;
+}
+
+.weather-bar {
+    background-color: green ;
+    height: 600px;
 }

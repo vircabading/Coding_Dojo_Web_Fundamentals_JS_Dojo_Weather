@@ -26,13 +26,13 @@
                 Dojo<span>Weather</span>
             </h1>
             <div class="container flex-row justify-space align-center col-1">
-                <h2>
+                <h2 onclick="alert('Loading weather report...')">
                     Burbank
                 </h2>
-                <h2>
+                <h2 onclick="alert('Loading weather report...')">
                     Chicago
                 </h2>
-                <h2>
+                <h2 onclick="alert('Loading weather report...')">
                     Dallas
                 </h2>
             </div>
@@ -66,11 +66,11 @@
                         some rain
                     </p>
                     <div class="container flex-row justify-space align-center margin-10-0">
-                        <h2 class="red-temp margin-0-10">
-                            75&#176
-                        </h2 class="blue-temp margin-0-10">
-                        <h2>
-                            65&#176
+                        <h2 id="today-high-temp" class="red-temp margin-0-10">
+                            75&#176F
+                        </h2>
+                        <h2 id="today-low-temp" class="blue-temp margin-0-10">
+                            65&#176F
                         </h2>
                     </div>
                 </div>
@@ -84,11 +84,11 @@
                         some sun
                     </p>
                     <div class="container flex-row justify-space align-center margin-10-0">
-                        <h2 class="red-temp margin-0-10">
-                            80&#176
-                        </h2 class="blue-temp margin-0-10">
-                        <h2>
-                            66&#176
+                        <h2 id="tomorrow-high-temp" class="red-temp margin-0-10">
+                            80&#176F
+                        </h2>
+                        <h2 id="tomorrow-low-temp" class="blue-temp margin-0-10">
+                            66&#176F
                         </h2>
                     </div>
                 </div>
@@ -102,11 +102,11 @@
                         some clouds
                     </p>
                     <div class="container flex-row justify-space align-center margin-10-0">
-                        <h2 class="red-temp margin-0-10">
-                            69&#176
-                        </h2 class="blue-temp margin-0-10">
-                        <h2>
-                            61&#176
+                        <h2 id="friday-high-temp" class="red-temp margin-0-10">
+                            69&#176F
+                        </h2 >
+                        <h2 id="friday-low-temp" class="blue-temp margin-0-10">
+                            61&#176F
                         </h2>
                     </div>
                 </div>
@@ -120,11 +120,11 @@
                         some sun
                     </p>
                     <div class="container flex-row justify-space align-center margin-10-0">
-                        <h2 class="red-temp margin-0-10">
-                            78&#176
-                        </h2 class="blue-temp margin-0-10">
-                        <h2>
-                            70&#176
+                        <h2 id="saturday-high-temp" class="red-temp margin-0-10">
+                            78&#176F
+                        </h2>
+                        <h2 id="saturday-low-temp" class="blue-temp margin-0-10">
+                            70&#176F
                         </h2>
                     </div>
                 </div>

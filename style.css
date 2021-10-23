@@ -54,3 +54,19 @@
 .blue-temp {
     color: blue;
 }
+
+/* //// COOKIE BAR ////////////////////////////////////*/
+#cookie-bar {
+    position: fixed;
+    top: 80%;
+    width: inherit;
+    background-color: white;
+}
+
+#cookie-bar>img {
+    height: 50px;
+}
+
+#cookie-bar>button {
+    background-color: lightblue;
+}

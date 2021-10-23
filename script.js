@@ -3,3 +3,7 @@
 // 
 // By:     Virgilio D. Cabading Jr.    
 //////////////////////////////////////////////////
+
+function removeCookieBar () {
+    document.getElementById("cookie-bar"). remove();
+}
